@@ -9,25 +9,6 @@
       color: black;
   }
 
-  .centerimage {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      border-radius: 8px;
-      
-  }
-
-  @media screen and (max-width: 700px) {
-
-    .centerimage {
-      width: 80%;
-    }
-
-  }
-
   /*Responsive image grid*/
   .row {
     display: flex;
